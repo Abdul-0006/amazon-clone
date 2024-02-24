@@ -1,0 +1,102 @@
+* {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav-bar {
+  background-color: #131921;
+  height: 60px;
+  display: flex;
+}
+.nav-box1 {
+  background-image: url(./download.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 113px;
+  height: 60px;
+  margin-left: 10px;
+}
+p i {
+  color: white;
+  margin-top: 20px;
+  size: 10px;
+}
+.nav-box2 {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  padding: 10px;
+}
+.del {
+  font-size: 12px;
+  color: white;
+}
+.pak {
+  color: white;
+  font-size: 20px;
+}
+.nav-box3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: -25px;
+  width: 940px;
+  height: 40px;
+}
+.nav-box3 > select {
+  width: 52px;
+  height: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.nav-box3 > input {
+  width: 80%;
+  height: 40px;
+}
+.search {
+  padding: 12px;
+  background-color: rgb(196, 73, 29);
+  width: 45px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.nav-box4 {
+  margin-right: 10px;
+  margin-left: -20px;
+}
+.nav-box4 > select {
+  width: 55px;
+  height: 35px;
+  margin-top: 12px;
+
+  background-color: transparent;
+}
+.nav-box4 p {
+  color: white !important;
+}
+.nav-box5 {
+  color: white;
+  overflow-y: hidden;
+  width: 131px;
+  height: 45px;
+  padding: 10px;
+}
+.nav-box6 {
+  overflow-y: hidden;
+  width: 100px;
+  height: 50px;
+  color: white;
+  padding: 10px;
+}
+.nav-box7 {
+  color: white;
+  padding-top: 20px;
+  width: 85px;
+  height: 50px;
+}
+.nav-box7 i {
+  height: 20px;
+  width: 20px;
+}
