@@ -17,6 +17,7 @@
   width: 113px;
   height: 60px;
   margin-left: 10px;
+  overflow: hidden;
 }
 p i {
   color: white;
@@ -44,9 +45,10 @@ p i {
   margin-left: -25px;
   width: 940px;
   height: 40px;
+  overflow: hidden;
 }
 .nav-box3 > select {
-  width: 52px;
+  width: 50px;
   height: 40px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -63,26 +65,35 @@ p i {
   border-bottom-right-radius: 5px;
 }
 .nav-box4 {
-  margin-right: 10px;
+  margin-right: 15px;
   margin-left: -20px;
+  overflow: hidden;
 }
 .nav-box4 > select {
   width: 55px;
   height: 35px;
   margin-top: 12px;
-
+  color: white;
   background-color: transparent;
 }
-.nav-box4 p {
-  color: white !important;
-}
+
 .nav-box5 {
   color: white;
   overflow-y: hidden;
-  width: 131px;
+  width: 136px;
   height: 45px;
   padding: 10px;
+  overflow: hidden;
+  text-align: left;
 }
+.nav-box5 > select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
 .nav-box6 {
   overflow-y: hidden;
   width: 100px;
@@ -95,6 +106,7 @@ p i {
   padding-top: 20px;
   width: 85px;
   height: 50px;
+  overflow: hidden;
 }
 .nav-box7 i {
   height: 20px;
